@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "Error",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"C:\\Users\\GP\\Documents\\Work\\SWR\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "Error: No package.json (or package.yaml, or package.json5) was found in \"C:\\Users\\GP\\Documents\\Work\\SWR\".\n    at readProjectManifest (C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:40283:13)\n    at async Object.readProjectManifestOnly (C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:40287:28)\n    at async Object.readProjectManifestOnly (C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:40506:24)\n    at async Object.handler (C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:121554:24)\n    at async C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:125614:20\n    at async run (C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:125589:34)\n    at async runPnpm (C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:125799:5)\n    at async C:\\Users\\GP\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:125791:7"
+    }
+  }
+}
